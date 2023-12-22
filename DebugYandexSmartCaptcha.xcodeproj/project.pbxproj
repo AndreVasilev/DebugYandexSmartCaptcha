@@ -11,6 +11,9 @@
 		559F4EF92B35D717007D361C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F4EF82B35D717007D361C /* ContentView.swift */; };
 		559F4EFB2B35D719007D361C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559F4EFA2B35D719007D361C /* Assets.xcassets */; };
 		559F4EFE2B35D719007D361C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559F4EFD2B35D719007D361C /* Preview Assets.xcassets */; };
+		559F4F052B35D7AE007D361C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F4F042B35D7AE007D361C /* WebView.swift */; };
+		559F4F072B35D82A007D361C /* CaptchaWebViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F4F062B35D82A007D361C /* CaptchaWebViewConfiguration.swift */; };
+		559F4F092B35EADC007D361C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F4F082B35EADC007D361C /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		559F4EF82B35D717007D361C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		559F4EFA2B35D719007D361C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559F4EFD2B35D719007D361C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		559F4F042B35D7AE007D361C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		559F4F062B35D82A007D361C /* CaptchaWebViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptchaWebViewConfiguration.swift; sourceTree = "<group>"; };
+		559F4F082B35EADC007D361C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				559F4EF62B35D717007D361C /* DebugYandexSmartCaptchaApp.swift */,
 				559F4EF82B35D717007D361C /* ContentView.swift */,
+				559F4F082B35EADC007D361C /* Config.swift */,
+				559F4F042B35D7AE007D361C /* WebView.swift */,
+				559F4F062B35D82A007D361C /* CaptchaWebViewConfiguration.swift */,
 				559F4EFA2B35D719007D361C /* Assets.xcassets */,
 				559F4EFC2B35D719007D361C /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559F4F052B35D7AE007D361C /* WebView.swift in Sources */,
 				559F4EF92B35D717007D361C /* ContentView.swift in Sources */,
+				559F4F092B35EADC007D361C /* Config.swift in Sources */,
 				559F4EF72B35D717007D361C /* DebugYandexSmartCaptchaApp.swift in Sources */,
+				559F4F072B35D82A007D361C /* CaptchaWebViewConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
